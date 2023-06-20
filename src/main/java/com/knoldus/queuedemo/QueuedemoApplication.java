@@ -14,7 +14,7 @@ public class QueuedemoApplication {
 	static final String queueName = "queue-demo";
 	static final String endpoint = "https://queueanshika.queue.core.windows.net/queue-demo";
 
-	static final String connectionString = "DefaultEndpointsProtocol=https;AccountName=queueanshika;AccountKey=AuFc9sHCrYTfURzjm4+dlv9dzchcgY/nv1JNTdDp4W495rKaxpUCnDiL/OSzfjjf15GjQlyne37Z+AStj/7R6g==;EndpointSuffix=core.windows.net";
+	static final String connectionString = "EndpointSuffix=core.windows.net";
 
 	private final static Logger logger = LoggerFactory.getLogger(QueuedemoApplication.class);
 
